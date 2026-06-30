@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-blue: #191970;
+  --color-brand-green: #8A9A5B;
+  --color-brand-bg: #F5F2ED;
+  --color-brand-dark: #1A1A1A;
+}
+
+/* Custom styles for luxury styling and smooth transitions */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #F5F2ED;
+  color: #1A1A1A;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2ED;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(25, 25, 112, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(25, 25, 112, 0.3);
+}
+
+/* Vertical Text utility as seen in the theme reference */
+.vertical-text {
+  writing-mode: vertical-rl;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ANANTAमाँ",
+  "description": "Timeless Indian luxury, modern heritage, soft femininity, and architectural silhouettes with editorial storytelling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
